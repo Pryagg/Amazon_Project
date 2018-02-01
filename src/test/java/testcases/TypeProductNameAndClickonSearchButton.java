@@ -6,12 +6,12 @@ import org.testng.annotations.Test;
 
 import pages.Homepage;
 
-public class TypeProductNameAndClickonSearchButton 
+public class TypeProductNameAndClickonSearchButton extends testbase
 {
 	
 	
 
-	static WebDriver driver ;
+	/*static WebDriver driver ;*/
 	
 
 	@Test

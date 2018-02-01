@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="0" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="17" started-at="2018-01-27T05:13:43Z" finished-at="2018-01-27T05:13:43Z">
+  <suite name="Default suite" duration-ms="15579" started-at="2018-02-01T19:23:29Z" finished-at="2018-02-01T19:23:45Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="17" started-at="2018-01-27T05:13:43Z" finished-at="2018-01-27T05:13:43Z">
-      <class name="testcases.testbase">
-        <test-method status="PASS" signature="Initialise()[pri:0, instance:testcases.testbase@10bdf5e5]" name="Initialise" is-config="true" duration-ms="22528" started-at="2018-01-27T18:13:20Z" finished-at="2018-01-27T18:13:43Z">
+    <test name="Default test" duration-ms="15579" started-at="2018-02-01T19:23:29Z" finished-at="2018-02-01T19:23:45Z">
+      <class name="testcases.TypeProductNameAndClickonSearchButton">
+        <test-method status="PASS" signature="Initialise()[pri:0, instance:testcases.TypeProductNameAndClickonSearchButton@64bf3bbf]" name="Initialise" is-config="true" duration-ms="40084" started-at="2018-02-02T08:22:49Z" finished-at="2018-02-02T08:23:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Initialise -->
-      </class> <!-- testcases.testbase -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        <test-method status="PASS" signature="EnterProductNAme()[pri:0, instance:testcases.TypeProductNameAndClickonSearchButton@64bf3bbf]" name="EnterProductNAme" duration-ms="15509" started-at="2018-02-02T08:23:29Z" finished-at="2018-02-02T08:23:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterProductNAme -->
+      </class> <!-- testcases.TypeProductNameAndClickonSearchButton -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

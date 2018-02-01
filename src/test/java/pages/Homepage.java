@@ -24,7 +24,7 @@ public class Homepage
 				// TODO Auto-generated constructor stub
 				this.driver = driver;
 				//PageFactory.initElements(driver, this);
-				PageFactory.initElements(driver, this);
+				//PageFactory.initElements(driver, this);
 				System.out.println("test code");
 			}
 			
